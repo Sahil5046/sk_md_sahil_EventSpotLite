@@ -1,9 +1,9 @@
 // src/pages/EventList.jsx
 import React, { useState, useEffect } from 'react';
 import eventsData from '../data/events.json';
-import EventCard from '../components/EventCard';
-import EventModal from '../components/EventModal';
-import LoadingSpinner from '../components/LoadingSpinner';
+import EventCard from '../Components/EventCard';
+import EventModal from '../Components/EventModal';
+import LoadingSpinner from '../Components/LoadingSpinner';
 
 function EventList({ searchTerm }) {
   const [selectedEvent, setSelectedEvent] = useState(null);
